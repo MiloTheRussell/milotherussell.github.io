@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Lorem</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="pricelist.html">PRICELIST</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!--About Us Content-->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur sed iste, numquam
+                    odit ipsum rem velit dolor officiis debitis reiciendis, optio obcaecati sapiente aut labore aliquid
+                    molestias provident id. Animi, rerum ea. At velit natus libero assumenda quibusdam tempore sapiente
+                    doloremque a voluptatem veritatis, quidem odit perspiciatis ad ratione. Assumenda, rerum debitis
+                    vitae a veritatis earum modi esse sequi?</p>
+                <a href="" class="hero-btn red-btn">LOREM</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>lorem ipsum</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus fugiat rem velit labore quod nobis<br>
+            eligendi nulla ducimus, corporis quasi libero explicabo iusto corrupti molestias, atque assumenda ratione
+            veritatis fugit!
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-superpowers"></i> Sanjin Srdoc</p>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
